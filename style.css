@@ -1,0 +1,8 @@
+.col{
+border: 1px solid rgba(140, 140, 223, 0.301);
+margin: 2px;
+}
+.col:hover{
+    border: none;
+background-color: rgba(140, 140, 223, 0.301);    
+}

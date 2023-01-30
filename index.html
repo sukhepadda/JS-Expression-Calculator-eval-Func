@@ -20,32 +20,38 @@
     <div class="container d-flex justify-content-center mt-3">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title h1 text-primary text-center">Calculator</h5>
-          <input class="w-100" id="calInput" type="number">
-          <input class="w-100 mt-1" id="calOutput" type="number" placeholder="ANS:" disabled>
-        
+          <h5 class="card-title text-primary text-center">CALCULATOR</h5>
+          <input class="w-100" id="calInput" type="text" />
+          <input
+            class="w-100 mt-3"
+            id="calOutput"
+            type="text"
+            placeholder="ANS:"
+            disabled
+          />
+
           <div class="row text-center mt-4">
-            <div class="col">7</div>
-            <div class="col">8</div>
-            <div class="col">9</div>
-            <div class="col">+</div>
+            <div onclick="valGetFunction(this)" class="col">7</div>
+            <div onclick="valGetFunction(this)" class="col">8</div>
+            <div onclick="valGetFunction(this)" class="col">9</div>
+            <div onclick="valGetFunction(this)" class="col">+</div>
           </div>
           <div class="row text-center mt-4">
-            <div class="col">4</div>
-            <div class="col">5</div>
-            <div class="col">6</div>
-            <div class="col">-</div>
+            <div onclick="valGetFunction(this)" class="col">4</div>
+            <div onclick="valGetFunction(this)" class="col">5</div>
+            <div onclick="valGetFunction(this)" class="col">6</div>
+            <div onclick="valGetFunction(this)" class="col">-</div>
           </div>
           <div class="row text-center mt-4">
-            <div class="col">1</div>
-            <div class="col">2</div>
-            <div class="col">3</div>
-            <div class="col">*</div>
+            <div onclick="valGetFunction(this)" class="col">1</div>
+            <div onclick="valGetFunction(this)" class="col">2</div>
+            <div onclick="valGetFunction(this)" class="col">3</div>
+            <div onclick="valGetFunction(this)" class="col">*</div>
           </div>
           <div class="row text-center mt-4">
-            <div class="col">0</div>
-            <div class="col">CLEAR</div>
-            <div class="col">/</div>
+            <div onclick="valGetFunction(this)" class="col">0</div>
+            <div id="clearDiv" class="col">CLEAR</div>
+            <div onclick="valGetFunction(this)" class="col">/</div>
           </div>
         </div>
       </div>

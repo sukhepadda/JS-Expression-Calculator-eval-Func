@@ -1,8 +1,70 @@
-.col{
-border: 1px solid rgba(140, 140, 223, 0.301);
-margin: 2px;
+/* input type no. arrow hide code */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
-.col:hover{
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  background: rgb(163, 29, 114);
+  background: linear-gradient(
+    90deg,
+    rgba(163, 29, 114, 0.651) 9%,
+    rgba(194, 25, 97, 0.651) 50%,
+    rgba(56, 51, 190, 0.651) 100%
+  );
+}
+.card {
+  background: rgb(163, 29, 114);
+  background: linear-gradient(
+    90deg,
+    rgba(163, 29, 114, 1) 9%,
+    rgba(194, 25, 97, 1) 50%,
+    rgba(56, 51, 190, 1) 100%
+  );
+  border: none;
+  border-radius: 50px;
+box-shadow: 50px 50px 500px;
+padding: 20px;
+}
+.card-title{
+    font-size: 52px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+input[type=number]{
     border: none;
-background-color: rgba(140, 140, 223, 0.301);    
+    border-radius: 8px;
+    padding: 5px;
 }
+input[type=number]:focus{
+outline: none;
+}
+#calOutput{
+    margin-bottom: 5px;
+}
+
+.col {
+    border: rgba(70, 168, 155, 0.603) solid 2px;
+    border-radius: 8px;
+  margin: 2px;
+  color: aliceblue;
+  font-size: 32px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.col:hover {
+  border: rgba(51, 51, 85, 0.644) solid 2px;
+  background-color: rgba(77, 77, 153, 0.301);
+}
+
+
+
+
+
